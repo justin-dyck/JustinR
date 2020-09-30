@@ -17,5 +17,10 @@ blogplot_theme = theme(legend.background = element_rect(fill = "#1F222A",
                      legend.text = element_text(color = "#9C9C9C"),
                      plot.title = element_text(color = "#9C9C9C"),
                      plot.subtitle = element_text(color = "#9C9C9C"))
-ggplot()+
-  blogplot_theme
+
+blogmap_theme = tm_layout(bg.color = "#1F222A",
+                          frame = F,
+                          legend.title.color = "#9C9C9C",
+                          legend.text.color = "#9C9C9C",
+                          title.color = "#9C9C9C")
+
