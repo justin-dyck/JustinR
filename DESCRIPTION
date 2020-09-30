@@ -1,0 +1,11 @@
+Package: JustinR
+Type: Package
+Title: JustinR
+Version: 0.1.0
+Author: Justin Dyck
+Maintainer: Justin Dyck <justin.dyck@tutanota.com>
+Description: Helpful tools for data science
+License: GNU General Public License Version 3
+Encoding: UTF-8
+LazyData: true
+depends: tidyverse, here, lubridate, sf, tmap
