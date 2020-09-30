@@ -8,4 +8,4 @@ Description: Helpful tools for data science
 License: GNU General Public License Version 3
 Encoding: UTF-8
 LazyData: true
-depends: tidyverse, here, lubridate, sf, tmap
+Depends: tidyverse, here, lubridate, sf, tmap
